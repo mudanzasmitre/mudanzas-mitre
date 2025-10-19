@@ -155,10 +155,45 @@
             /* Placed between the video and the content */
         }
 
-        .h3{
-            font-size: 1rem !important;
+        .card-body {
+            text-align: center;
+        }
+        .card-title {
+            text-align: ceç
+            ;
+            font-size: 1.5rem;
         }
 
         .bg-light {
             background-color: #f8f9fa;
         }
+
+        .carousel-inner .carousel-item {
+            width: 100% !important;
+            height: 320px !important;
+        }
+
+        .whatsapp {
+               position: fixed;
+               width: 60px;
+               height: 60px;
+               bottom: 40px;
+               right: 40px;
+               background-color: #25d366;
+               color: #fff;
+               border-radius: 100px;
+               font-size: 18px;
+               z-index: 100;
+               text-align: center;
+    
+           }
+    
+           .whatsapp-icon {
+               margin-top: 10px
+           }
+    
+           .whatsapp:hover {
+               color: #fff;
+               font-size: 20px
+}
+
