@@ -1,17 +1,17 @@
         @import url(https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
-        
-           body {
-               -webkit-font-smoothing: antialiased;
-               -moz-osx-font-smoothing: grayscale;
-               font-optical-sizing: auto;
-               -webkit-font-smoothing: antialiased;
-               -moz-osx-font-smoothing: grayscale;
-               font-size: 16px;
-               line-height: 22px;
-               font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-               overflow-x: hidden;
-               font-display: swap;
-        }           
+
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-optical-sizing: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 16px;
+            line-height: 22px;
+            font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            overflow-x: hidden;
+            font-display: swap;
+        }
 
         .row {
             display: flex;
@@ -27,7 +27,7 @@
         }
 
         .hero-section {
-            /*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/mudanzas-mitre-00.webp');*/
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
             background-size: cover;
             background-position: center;
             height: 65vh;
@@ -37,30 +37,33 @@
             text-align: center;
             position: relative;
         }
-         
+
         .hero-section h1 {
             font-size: 3.5rem;
             font-weight: 700;
-            line-height: 3.5rem;}
-            
-            @media all and (max-width:768px) {
+            line-height: 3.5rem;
+        }
+
+        @media all and (max-width:768px) {
             .hero-section h1 {
-            font-size: 2rem;
-            font-weight: 700;
-            line-height: 2.5rem;
+                font-size: 2rem;
+                font-weight: 700;
+                line-height: 2.5rem;
             }
+
             .btn-primary {
-            background-color: #0d6efd;
-            border-color: #0d6efd;
-            transition: all 0.3s ease;
-            width: 100%;
+                background-color: #0d6efd;
+                border-color: #0d6efd;
+                transition: all 0.3s ease;
+                width: 100%;
             }
+
             .btn-secondary {
-            background-color: #fff;
-            border-color: #fafafa;
-            transition: all 0.3s ease;
-            width: 100%;
-            color:#0a58ca;
+                background-color: #fff;
+                border-color: #fafafa;
+                transition: all 0.3s ease;
+                width: 100%;
+                color: #0a58ca;
             }
         }
 
@@ -78,22 +81,22 @@
             border-color: #0d6efd;
             width: 320px;
             transition: all 0.3s ease;
-       }
+        }
 
         .btn-primary:hover {
             background-color: #0b5ed7;
             border-color: #0a58ca;
         }
 
-         .btn-secondary {
+        .btn-secondary {
             background-color: #fff;
             border-color: #fafafa;
             transition: all 0.3s ease;
             width: 320px;
-            color:#0a58ca;
+            color: #0a58ca;
             margin: auto;
         }
-        
+
         .section-title {
             font-weight: 600;
             color: #333;
@@ -101,7 +104,7 @@
         }
 
         .card {
-            border: none !important;
+            border: transparent !important;
         }
 
         .border-round {
@@ -124,10 +127,11 @@
             height: 100%;
             width: auto;
         }
+
         .service-card .btn-primary {
             width: 100%;
         }
-        
+
 
         .feature-box:hover,
         .service-card:hover {
@@ -154,6 +158,11 @@
         footer {
             background-color: #343a40;
             color: white;
+        }
+
+        footer .card {
+            background-color: transparent !important;
+            min-width: 150px;
         }
 
         .py-5 {
@@ -206,9 +215,9 @@
         .card-body {
             text-align: center;
         }
+
         .card-title {
-            text-align: ceç
-            ;
+            text-align: ceç;
             font-size: 1.5rem;
         }
 
@@ -222,54 +231,60 @@
         }
 
         .whatsapp {
-               position: fixed;
-               width: 60px;
-               height: 60px;
-               bottom: 40px;
-               right: 40px;
-               background-color: #25d366;
-               color: #fff;
-               border-radius: 100px;
-               font-size: 18px;
-               z-index: 100;
-               text-align: center;
-    
-           }
-    
-           .whatsapp-icon {
-               margin-top: 10px;
-           }
-    
-           .whatsapp:hover {
-               color: #fff;
-               font-size: 20px;
-            }
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #fff;
+            border-radius: 100px;
+            font-size: 18px;
+            z-index: 100;
+            text-align: center;
 
-            ul.lead li {
-    font-size: 17px;
-    border-bottom: 1px solid #ccc
-}
+        }
 
-ul.lead-nolines li {
-    font-size: 17px;
-    line-height: 36px;
-    border-bottom: none !important
-}
+        .whatsapp-icon {
+            margin-top: 10px;
+        }
 
-p,
-p.lead,
-span,
-ul.lead li {
-    font-weight: 400
-}
+        .whatsapp:hover {
+            color: #fff;
+            font-size: 20px;
+        }
 
-a,
-ul.lead li a:hover {
-    font-weight: 500
-}
+        ul.lead li {
+            font-size: 17px;
+            border-bottom: 1px solid #ccc
+        }
 
-p.lead {
-    font-size: 18px;
-    line-height: 28px
-}
+        ul.lead-nolines li {
+            font-size: 17px;
+            line-height: 36px;
+            border-bottom: transparent !important
+        }
 
+        p,
+        p.lead,
+        span,
+        ul.lead li {
+            font-weight: 400
+        }
+
+        a,
+        ul.lead li a:hover {
+            font-weight: 500
+        }
+
+        p.lead {
+            font-size: 18px;
+            line-height: 28px
+        }
+        .icon-rss {
+            font-size: 24px;
+            color: #fff;
+        }
+        .uppercase {
+            text-transform: uppercase;
+        }
