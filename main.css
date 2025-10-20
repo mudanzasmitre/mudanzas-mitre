@@ -65,6 +65,41 @@
                 width: 100%;
                 color: #0a58ca;
             }
+             .feature-box,
+            .service-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin: 4px;
+            height: 100%;
+            transition: transform 0.3s ease;
+          }
+          #myVideo {
+            position: fixed;
+            /* Ensures the video stays in place when scrolling */
+            right: 0;
+            bottom: 0;
+            min-width: auto;
+            min-height: auto;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            /* Pushes the video behind all other page content */
+            object-fit: cover;
+            /* Ensures the video covers the entire viewport without distortion */
+            }
+            .video-background::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: auto;
+            height: auto;
+            /* Adjust opacity here */
+            z-index: 0;
+            /* Placed between the video and the content */
+        }
         }
 
         .hero-section p {
@@ -230,20 +265,18 @@
             height: 320px !important;
         }
 
-        .whatsapp {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 40px;
-            right: 40px;
-            background-color: #25d366;
-            color: #fff;
-            border-radius: 100px;
-            font-size: 18px;
-            z-index: 100;
-            text-align: center;
-
-        }
+           .whatsapp {
+               position: fixed;
+               width: 60px;
+               height: 60px;
+               bottom: 40px;
+               right: 40px;
+               background-color: #25d366;
+               color: #fff;
+               border-radius: 100px;
+               font-size: 18px;
+               z-index: 100;
+           }
 
         .whatsapp-icon {
             margin-top: 10px;
