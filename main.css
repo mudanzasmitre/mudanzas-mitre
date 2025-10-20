@@ -78,7 +78,7 @@
             border-color: #0d6efd;
             width: 320px;
             transition: all 0.3s ease;
-c        }
+       }
 
         .btn-primary:hover {
             background-color: #0b5ed7;
@@ -171,8 +171,8 @@ c        }
             /* Ensures the video stays in place when scrolling */
             right: 0;
             bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
+            min-width: 1920px;
+            min-height: 1080px;
             width: auto;
             height: auto;
             z-index: -1;
@@ -196,9 +196,8 @@ c        }
             position: absolute;
             top: 0;
             left: 0;
-            width: 100%;
-            height: auto;
-            background-color: rgba(0, 0, 0, 0.5);
+            width: 1920px;
+            height: 1080px;
             /* Adjust opacity here */
             z-index: 0;
             /* Placed between the video and the content */
