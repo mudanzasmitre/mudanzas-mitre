@@ -24,6 +24,8 @@
         .navbar-brand {
             font-weight: bold;
             color: #fff !important;
+            height: 100px;
+            background-color: #0b74de;
         }
 
         .hero-section {
@@ -143,7 +145,7 @@
         }
 
         .border-round {
-            border-radius: 10px 10px 0 0;
+            border-radius: 10px 10px 10px 10px;
         }
 
         .feature-box,
@@ -260,6 +262,10 @@
             background-color: #f8f9fa;
         }
 
+        .bg-primary {
+            background-color: #0b74de;
+         }
+
         .carousel-inner .carousel-item {
             width: 100% !important;
             height: 320px !important;
@@ -276,6 +282,7 @@
                border-radius: 100px;
                font-size: 18px;
                z-index: 100;
+               text-align: center;
            }
 
         .whatsapp-icon {
