@@ -54,10 +54,43 @@
         </div>
     </nav>
 
-    <header id="inicio" class="hero-section">
+    <!-- ======= HEADER HERO - Mudanzas Mitre ======= -->
+<header style="position:relative; height:100vh; overflow:hidden; font-family:'Inter',system-ui,Arial,sans-serif;">
+  <!-- Video de fondo -->
+  <video autoplay muted loop playsinline
+    style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; z-index:0;">
+    <source src="/video-home.mp4" type="video/mp4">
+    Tu navegador no soporta video HTML5.
+  </video>
+
+  <!-- Capa oscura para mejorar legibilidad -->
+  <div style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.55); z-index:1;"></div>
+
+  <!-- Contenido del header -->
+  <div style="position:relative; z-index:2; display:flex; flex-direction:column; justify-content:center; align-items:center; height:100%; text-align:center; color:#fff; padding:0 20px;">
+    <h1 style="font-size:clamp(2rem,5vw,3.5rem); font-weight:700; margin-bottom:20px;">
+      Mudanzas Mitre
+    </h1>
+    <p style="font-size:clamp(1.1rem,2vw,1.3rem); max-width:700px; margin-bottom:30px;">
+      Mudanzas rápidas, seguras y sin estrés en <strong>Buenos Aires</strong> y alrededores. 
+      Embalaje, transporte y descarga profesional, todo en un solo servicio.
+    </p>
+    <a href="https://wa.me/549XXXXXXXXXX?text=Hola%20quiero%20presupuesto%20para%20mi%20mudanza"
+      style="background:#0b74de; color:#fff; padding:14px 28px; border-radius:50px; text-decoration:none; font-weight:600; font-size:1.05rem; transition:background .3s;">
+      📲 Solicitar presupuesto por WhatsApp
+    </a>
+  </div>
+
+ 
+</header>
+<!-- ======= FIN HEADER HERO ======= -->
+
+
+    <!--<header id="inicio" class="hero-section">
         <div class="container">
             <div class="video-background">
-              
+                   <source src="https://cdn.coverr.co/videos/coverr-moving-truck-in-the-city-5675/1080p.mp4" type="video/mp4">
+
                 <div class="content text-center">
                     <h1>Mudanzas rápidas, seguras y sin estrés <br>en Buenos Aires</h1>
                     <p class="lead uppercase py-4">Tu mudanza coordinada de principio a fin por profesionales</p>
@@ -66,7 +99,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header>-->
 
     <section id="nosotros" class="py-5 bg-light">
         <div class="container">
